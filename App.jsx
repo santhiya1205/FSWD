@@ -1,9 +1,12 @@
-import StudentRegistration from "./FullStackProject/Sample/StudentRegistration"
-
-
+import React from "react";
+import EventRegistration from "./FullStackProject/Sample/Event";
 
 function App() {
-  return<StudentRegistration/>
+  return (
+    <div>
+      <EventRegistration />
+    </div>
+  );
 }
 
-export default App
+export default App;
